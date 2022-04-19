@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../src/images/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
+.navbar-brand{
+  display: none !important;
+}
+.logo img{
+  width: 150px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.navbar-nav a{
+  color: #fff !important;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  padding: 0 0.2rem;
+}
+.social-icons ul li a{
+  color: #bd5b70;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  padding: 0.2rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons{
+  margin-top: 1rem;
+}
+input[type=search]{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: 300ms all ease;
+}
+input[type=search]:focus{
+  outline: none !important;
+  border-bottom: 2px solid white;
+  transition: 300ms all ease;
+}
+.search-me{
+  color: #fff;
+  position: relative;
+  top: 5px;
+}
+.search-icon a{
+  color: #fff;
+}
+/*  */
+
+.banner-section{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 31%;
+}
+.banner-section img{
+  width: 100%;
+  max-width: 600px;
+}
+.banner-section h4{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+  max-width: 280px;
+  margin: auto;
+}
+.banner-section p{
+  color: #fff;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 880px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.footer h3{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+/*  */
+
+
+@media only screen and (max-width : 993px){
+  .social-icons{
+    display: none;
+  }
+  .header{
+   width: 100%;
+  }
+  .logo img{
+    display: none;
+  }
+  .navbar-brand{
+    display: block !important;
+  }
+  .navbar-brand img{
+    width: 150px;
+  }
+  .navbar{
+    width: 100%;
+  }
+   input[type=search]{
+    background: transparent;
+    border: none;
+    transition: 300ms all ease;
+    width: 100%;
+  }
+  .searchnav{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.navbar-toggler{
+  border: 1px solid #fff !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon{
+  color: #fff;
+}
